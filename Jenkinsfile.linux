@@ -10,7 +10,7 @@ pipeline {
     agent {
         node {
             // label of node on which to build
-            label 'linux-ci'
+            label 'linux-aws-gui'
         }
     }
     environment {
